@@ -1,0 +1,20 @@
+{
+  "name": "student-projects-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bam92/student-projects-frontend.git"
+  },
+  "keywords": [],
+  "author": " <Abel Lifaefi Mbula>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bam92/student-projects-frontend/issues"
+  },
+  "homepage": "https://github.com/Bam92/student-projects-frontend#readme"
+}
