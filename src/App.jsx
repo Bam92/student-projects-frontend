@@ -1,7 +1,15 @@
 import "./App.css";
+import SmallCard from "./components/SmallCard/SmallCard";
+import { AiOutlineUser } from "react-icons/ai";
 
 function App() {
-  return <h1 className="text-3xl font-bold  underline">Hello world!</h1>;
+  return (
+    <SmallCard
+      title={"Etudiants"}
+      num={"20+ "}
+      icon={<AiOutlineUser size={30} />}
+    />
+  );
 }
 
 export default App;
