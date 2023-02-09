@@ -34,7 +34,7 @@ export const getProjects = createAsyncThunk(
 );
 
 export const getOneProjects = createAsyncThunk(
-  "projets/get/One",
+  "projets/getOne",
   async (_, thunkAPI) => {
     try {
       const res = await axios.get("");
@@ -53,6 +53,7 @@ export const projetsSlice = createSlice({
   name: "projects",
   initialState: {
     projets: null,
+    project: null,
     isLoading: false,
     isSuccess: false,
     isError: false,
@@ -82,7 +83,7 @@ export const projetsSlice = createSlice({
       .addCase(getOneProjects.fulfilled, (state, action) => {
         state.isLoading = false;
         state.isSuccess = true;
-        state.projets = action.payload;
+        state.projet = action.payload;
         state.isError = false;
         state.errorMessage = "";
       })
@@ -98,7 +99,7 @@ export const projetsSlice = createSlice({
       .addCase(createProjects.fulfilled, (state, action) => {
         state.isLoading = false;
         state.isSuccess = true;
-        state.projets = action.payload;
+        state.projets = [...state.projects,action.payload];
         state.isError = false;
         state.errorMessage = "";
       })
