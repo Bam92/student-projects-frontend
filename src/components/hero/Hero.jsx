@@ -5,13 +5,16 @@ import { BiCodeAlt } from "react-icons/bi";
 
 function Hero() {
   return (
-    <section className="flex  justify-center max-[680px]:flex-col ">
-      <section id="left" className="text-left w-[60%] max-[680px]:w-[100%]">
+    <section className="flex  justify-center  max-[680px]:flex-col mb-12 ">
+      <section
+        id="left"
+        className="text-left w-[60%] max-[680px]:w-[100%] pt-10"
+      >
         <h1 className="text-[48px] max-[680px]:text-[32px] w-[100%] font-bold">
           VENEZ VOIR <br /> LES <span className="text-[#D92950]">PROJETS </span>{" "}
           ETUDIANTS
         </h1>
-        <p className="w-[93%] text-[18px] text-[#263238]">
+        <p className="w-[93%] text-[18px] text-[#263238] ">
           Créez des applications réelles qui attireront les employeurs. <br />
           Votre portfolio est votre arme secrète quand il s'agit d'interviewer.
           <br /> C’est une vitrine factuelle de vos capacités.

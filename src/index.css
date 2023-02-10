@@ -6,3 +6,7 @@
 body {
   font-family: "Inter", sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 2px;
+  background-color: white;
+}
