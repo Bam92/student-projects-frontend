@@ -8,9 +8,12 @@ function ProjetSection() {
     keyAct: 0,
   });
   return (
-    <section className="  flex-col justify-center items-center   flex-center mt-48">
+    <section className="  flex-col justify-center items-center   flex-center mt-48 ">
+      <h2 className=" max-[680px]:mt-28 text-[#263238] font-bold text-[30px]">
+        Nos Projets
+      </h2>
       <section className="  mb-9">
-        <div className="flex mx-auto w-1/2 max-[680px]:w-[90vw] max-[680px]:mx-auto max-[680px]:mt-[20%] max-[680px]:text-[12px] z-50   justify-between p-1 rounded-full shadow-lg items-center bg-[#303030]">
+        <div className="flex mx-auto w-1/2 max-[680px]:w-[90vw] max-[680px]:mx-auto max-[680px]:mt-[5%] mt-[2%] max-[680px]:text-[12px] z-50   justify-between p-1 rounded-full shadow-lg items-center bg-[#303030]">
           {tech &&
             tech.map((techno, key) => (
               <span
