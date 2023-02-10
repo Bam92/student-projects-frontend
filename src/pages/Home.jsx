@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from 'react';
 import Hero from "../components/hero/Hero";
 import NavBar from "../components/NavBar/NavBar";
 import ProjetSection from "../components/projet/ProjetSection";
