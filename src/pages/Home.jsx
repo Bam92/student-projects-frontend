@@ -1,13 +1,16 @@
-import React from "react";
-
-import CardProjet from "../components/cardProjet/CardProjet";
+import React from 'react';
+import CardArticle from '../components/cardArticle/cardArticle';
 import Hero from "../components/hero/Hero";
+import NavBar from "../components/NavBar/NavBar";
+import ProjetSection from "../components/projet/ProjetSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col ">
+      <NavBar />
       <Hero />
-      <CardProjet />
+      <ProjetSection />
+      <CardArticle/>
     </div>
   );
 }
