@@ -17,18 +17,18 @@ function CardProjet() {
     },
   ];
   return (
-    <div>
+    <div className="">
       {data.map((projet) => (
-        <div className="text-left relative w-[350px] bg-white border border-gray-200 rounded-2xl ">
+        <div className="text-left relative shadow-lg w-[350px]  bg-white border border-gray-200 rounded-2xl ">
           <a href="#">
             <img className="rounded-t-2xl " src={projet.img} alt="" />
           </a>
 
-          <div className="flex justify-between pl-5 pr-5">
+          <div className="flex justify-between mt-2 pl-5 pr-5">
             <div className="ext-sm font-light text-gray-500 ">
               {projet.tech}
             </div>
-            <div className="ext-sm font-light text-gray-500 ">
+            <div className="text-sm font-light text-gray-500 ">
               {projet.date}
             </div>
           </div>
@@ -38,7 +38,9 @@ function CardProjet() {
                 {projet.title}
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-700">{projet.desc}</p>
+            <p className="mb-3 font-normal text-gray-700 max-[680px]:text-[13px]">
+              {projet.desc}
+            </p>
             <div className="flex  justify-between">
               <div className="flex gap-2 justify-start items-center mt-2 mb-2">
                 <img
