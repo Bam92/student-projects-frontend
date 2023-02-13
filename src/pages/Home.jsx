@@ -7,10 +7,10 @@ import ProjetSection from "../components/projet/ProjetSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col ">
-      {/* <NavBar />
+    <div className="flex flex-col gap-12">
+      <NavBar />
       <Hero />
-      <ProjetSection /> */}
+      <ProjetSection />
       <Footer />
     </div>
   );
