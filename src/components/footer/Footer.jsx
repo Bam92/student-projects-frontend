@@ -4,7 +4,7 @@ import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 function Footer() {
   return (
-    <footer className="bg-white flex flex-col justify-center  gap-6 max-[680px]:w-[100%]  ">
+    <footer className="bg-white flex flex-col justify-center mt-12 px-12 gap-6 max-[680px]:w-[100%]  ">
       <section className="flex justify-between items-center ">
         <div id="logo">
           <img src={Gda} alt="" className="w-[155.22px] h-[23.66px]" />
