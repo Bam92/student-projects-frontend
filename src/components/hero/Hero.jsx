@@ -5,7 +5,7 @@ import { BiCodeAlt } from "react-icons/bi";
 
 function Hero() {
   return (
-    <section className="flex  justify-center max-[680px]:flex-col ">
+    <section className="flex  justify-center max-[680px]:flex-col mt-36">
       <section
         id="left"
         className="text-left w-[60%] max-[680px]:w-[100%] min-[680px]:pt-24"
