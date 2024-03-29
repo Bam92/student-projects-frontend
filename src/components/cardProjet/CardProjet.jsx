@@ -3,7 +3,7 @@ import SmallCard from '../SmallCard/SmallCardProjet';
 
 function CardProjet({ data }) {
 	return (
-		<div className='flex max-[680px]:flex-col justify-between flex-wrap items-center'>
+		<div className='mx-auto container  flex max-[680px]:flex-col justify-between flex-wrap items-center'>
 			{data &&
 				data.map((projet) => (
 					<div className='w-1/3 p-10 '>

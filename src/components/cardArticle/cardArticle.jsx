@@ -6,7 +6,7 @@ const CardArticle = () => {
 	return (
 		<div className='w-full bg-gray-100 h-screen flex items-center'>
 			<article className='mx-auto container  w-full flex flex-row justify-between py-8'>
-				<section className='flex flex-col  gap-6  w-2/3 p-8 '>
+				<section className='flex flex-col  gap-12  w-2/3 p-8 '>
 					<div className='flex flex-row w-full h-[24rem] rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] bg-white'>
 						<div className='w-2/5 h-full'>
 							<img
