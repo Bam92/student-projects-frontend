@@ -10,7 +10,7 @@ import TechProject from '../components/techProject/TechProject';
 
 export default function Home() {
 	return (
-		<div className='flex flex-col gap-12'>
+		<div className='flex flex-col'>
 			<Hero />
 			<Student />
 			<TechProject />

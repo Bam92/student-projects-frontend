@@ -18,8 +18,8 @@ import mongo from '../../../public/mongo.png';
 import BarProjet from './BarProjet';
 const TechProject = () => {
 	return (
-		<div className='mx-auto container'>
-			<div className='flex justify-between'>
+		<div className='w-full flex items-center  h-[60vh]'>
+			<div className='mx-auto container flex justify-between'>
 				<div>
 					<section className='text-left max-[680px]:w-[100%] flex flex-col '>
 						<h1 className='text-5xl leading-[1.4] my-4 w-[70%] font-bold'>
