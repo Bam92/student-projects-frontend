@@ -9,7 +9,7 @@ function BarProjet() {
 	});
 	return (
 		<section className='flex py-2 my-4'>
-			<div className='flex  p-1 rounded-full shadow-lg items-center bg-[#303030]'>
+			<div className='flex  p-1 rounded-full shadow-default items-center bg-[#303030]'>
 				{tech &&
 					tech.map((techno, key) => (
 						<span

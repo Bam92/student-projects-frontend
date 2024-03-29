@@ -19,7 +19,7 @@ const CardArticle = () => {
 							<p className='font-bold  text-xl text-start'>
 								Netus vestibulum a vulputate sollicitudin id vitae convallis
 							</p>
-							<p className='text-md text-start'>
+							<p className='text-md text-gray-500 text-start'>
 								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
 								accusamus odit expedita illo quo praesentium voluptatem itaque
 								nostrum ipsam. Quibusdam iste repudiandae dolor reprehenderit
@@ -54,7 +54,7 @@ const CardArticle = () => {
 							<p className='font-bold  text-xl text-start'>
 								Netus vestibulum a vulputate sollicitudin id vitae convallis
 							</p>
-							<p className='text-md text-start'>
+							<p className='text-md text-gray-500 text-start'>
 								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
 								accusamus odit expedita illo quo praesentium voluptatem itaque
 								nostrum ipsam. Quibusdam iste repudiandae dolor reprehenderit
@@ -91,7 +91,7 @@ const CardArticle = () => {
 							<p className='font-bold text-start text-xl'>
 								Netus vestibulum a vulputate sollicitudin id vitae convallis
 							</p>
-							<p className='text-md text-start'>
+							<p className='text-md text-gray-500 text-start'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
 								blanditiis molestias, eos natus itaque deleniti error maiores
 								architecto. Sequi esse repellat amet hic quos voluptate

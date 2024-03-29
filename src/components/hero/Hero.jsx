@@ -13,7 +13,7 @@ function Hero() {
 				>
 					<h1 className='text-[4rem] max-[680px]:text-[32px] w-[100%] font-bold'>
 						VENEZ VOIR <br /> LES{' '}
-						<span className='text-[#D92950]'>PROJETS </span> ETUDIANTS
+						<span className='text-[#D92950]'>PROJETS </span> DES ALMUNIS
 					</h1>
 					<p className='text-2xl leading-10 text-[#263238]'>
 						Créez des applications réelles qui attireront les employeurs. <br />
