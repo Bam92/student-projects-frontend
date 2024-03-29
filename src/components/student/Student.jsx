@@ -1,48 +1,82 @@
-import React from "react";
+import React from 'react';
 
 function Student() {
-  return (
-    <section className="flex  justify-center mt-56 min-[680px]:mt-24  max-[680px]:-mx-10 max-[680px]:overflow-y-hidden p-8 max-[680px]:pb-20">
-      <section className="flex relative">
-        <div className="w-[200px] absolute right-80 max-[680px]:right-56 top-36">
-          <img src="im.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-        <div className="w-[200px] absolute top-36 right-20">
-          <img src="im1.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-        <div className="w-[200px] absolute  top-0 right-72">
-          <img src="im2.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-        <div className="w-[200px] absolute  top-0 right-12">
-          <img src="im3.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-      </section>
-      <section className="w-[35%] max-[680px]:pt-12">
-        <h2 className=" text-3xl max-[680px]:text-lg font-bold">
-          Rencontrez nos diplômés qui ont réalisé leur rêve emploi dans la
-          technologie
-        </h2>
-        <span className="text-[gray] text-sm max-[680px]:hidden">
-          Découvrez les parcours de nos 25 diplômés de tous horizons vers de
-          nouvelles carrières dans la tech.
-        </span>
-      </section>
-      <section className="flex relative">
-        <div className="w-[200px] absolute left-80 top-36">
-          <img src="im2.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-        <div className="w-[200px] absolute top-36 left-20">
-          <img src="im4.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-        <div className="w-[200px] absolute top-0 left-72">
-          <img src="im5.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-        <div className="w-[200px] absolute top-0 left-12">
-          <img src="im3.jpg" alt="" className=" rounded-3xl shadow-xl" />
-        </div>
-      </section>
-    </section>
-  );
+	return (
+		<div className='h-screen flex items-center'>
+			<div className='w-full'>
+				<div className=' relative h-[18rem] my-6 w-full'>
+					<div className='flex gap-6 absolute -left-10'>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000 '>
+							<img src='im.jpg' alt='' className='w-full h-full object-cover' />
+						</div>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000 '>
+							<img
+								src='im2.jpg'
+								alt=''
+								className='w-full h-full object-cover'
+							/>
+						</div>
+					</div>
+					<div className='flex gap-6 absolute -right-10'>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000'>
+							<img
+								src='cedric.jpg'
+								alt=''
+								className='w-full h-full object-cover'
+							/>
+						</div>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000'>
+							<img
+								src='im3.jpg'
+								alt=''
+								className='w-full h-full object-cover'
+							/>
+						</div>
+					</div>
+				</div>
+				<div className='relative h-[18rem] my-6 w-full'>
+					<div className='flex gap-6 absolute -left-40'>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000'>
+							<img
+								src='im3.jpg'
+								alt=''
+								className='w-full h-full object-cover'
+							/>
+						</div>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000'>
+							<img
+								src='cedric.jpg'
+								alt=''
+								className='w-full h-full object-cover'
+							/>
+						</div>
+					</div>
+					<div className='absolute left-1/2 translate-x-[-50%] -top-20 w-[40%]'>
+						<h2 className=' text-5xl leading-[4rem] max-[680px]:text-lg font-bold'>
+							Rencontrez nos diplômés qui ont réalisé leur rêve emploi dans la
+							technologie
+						</h2>
+						<p className='text-[gray] text-lg my-4 max-[680px]:hidden'>
+							Découvrez les parcours de nos 188 diplômés <br /> de tous horizons
+							vers de nouvelles carrières dans la tech.
+						</p>
+					</div>
+					<div className='flex gap-6 absolute -right-40'>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000'>
+							<img
+								src='im2.jpg'
+								alt=''
+								className='w-full h-full object-cover'
+							/>
+						</div>
+						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000'>
+							<img src='im.jpg' alt='' className='w-full h-full object-cover' />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Student;

@@ -22,7 +22,7 @@ function Hero() {
 						<br /> C’est une vitrine factuelle de vos capacités.
 					</p>
 				</section>
-				<section className=' w-1/2 p-2'>
+				<section className='hidden sm:block w-1/2 p-2'>
 					<div className='relative h-full w-full '>
 						<div className='absolute left-3 top-12 z-50 max-[680px]:top-3 max-[680px]:left-0'>
 							<SmallCard
