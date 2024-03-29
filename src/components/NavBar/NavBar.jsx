@@ -14,7 +14,7 @@ const NavBar = () => {
 		keyAct: 0,
 	});
 	return (
-		<nav className=' px-12 shadow-md fixed w-full z-[9000] bg-white'>
+		<nav className=' px-12 shadow-sm fixed w-full z-[9000] bg-[#ffffff1c] backdrop-blur-md'>
 			<div className='container mx-auto flex justify-between items-center '>
 				<Link to={'/'}>
 					<img src={Gda} alt='' className='' />
@@ -27,7 +27,7 @@ const NavBar = () => {
 									setActive({ keyAct: key });
 								}}
 								className={clsx(
-									'px-8 py-8 hover:bg-red-100 border-b-4 border-white  hover:border-primary duration-200',
+									'px-8 py-8 hover:bg-red-100 border-b-4 border-[#ffffff1c]  hover:border-primary duration-200',
 									isActive.keyAct === key
 										? 'text-[#D92950] '
 										: ' hover:text-[#d9294f9a] '
