@@ -7,7 +7,7 @@ function CardProjet({ data }) {
 			{data &&
 				data.map((projet) => (
 					<div className='w-1/3 p-10 '>
-						<div className='text-left relative shadow-lg w-full  bg-white border border-gray-200 rounded-2xl '>
+						<div className='text-left relative  w-full  bg-white duration-1000 rounded-2xl shadow-[-10px_-10px_30px_4px_#00000019,_10px_10px_30px_4px_#2d4eff26]  hover:shadow-[#2d4cff4b_0px_30px_90px]'>
 							<a href='#'>
 								<img className='rounded-t-2xl w-full' src={projet.img} alt='' />
 							</a>
