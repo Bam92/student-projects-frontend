@@ -3,7 +3,7 @@ import React from 'react';
 function Student() {
 	return (
 		<div className='h-screen flex items-center'>
-			<div className='w-full'>
+			<div className='w-full overflow-hidden'>
 				<div className=' relative h-[18rem] my-6 w-full'>
 					<div className='flex gap-6 absolute -left-10'>
 						<div className='w-[18rem] h-[18rem] rounded-[2rem] shadow-2xl overflow-hidden  hover:rotate-6 duration-1000 '>
